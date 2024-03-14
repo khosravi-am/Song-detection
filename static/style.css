@@ -1,0 +1,45 @@
+.h1{
+    margin: 10px;
+    width: 100%;
+    padding: 500px;
+    color: green;
+ 
+  }
+ 
+ .file-upload {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+ 
+ .file-upload .file-upload__area {
+    width: 600px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    margin-top: 40px;
+  }
+ 
+ .file-preview-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto 20px;
+  }
+ 
+ .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #008CBA;
+  }
