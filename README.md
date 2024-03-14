@@ -3,8 +3,9 @@ In this project, song detection and suggestion service has been implemented, whi
 
 To use, you must first enter your object storage, RabbitMQ Postgresql, Spotify, Shazam, and email server credentials in db.ini.
 
-install requirments.txt
-run: 
+# install requirments.txt
+
+# run: 
 python3 main.py 
 python3 songer.py 
 python3 mail.py
